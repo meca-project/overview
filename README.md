@@ -51,11 +51,11 @@
 |[L4fame Build Container execution environment](https://github.com/moca-etri/l4fame/)|GPL v2 라이선스|무|운영체제|공개완료
 
 ## 결과물
-[메모리 연결망](/Researches/Memory-Network/Memory-Network.md)
+[메모리 연결망](/Researches/Memory-Network/Readmek.md)
 
-[랙 컴퓨팅 PoC](/Researches/Rack_computing_PoC/Rack_computing_PoC.md)
+[랙 컴퓨팅 PoC](/Researches/Rack_computing_PoC/Readme.md)
 
-[결과물 동영상](/Researches/Result_Video/Result_Video.md)
+[결과물 동영상](/Researches/Result_Video/Readme.md)
 
 [홍보물](/Data/documents/br.pdf)
 
