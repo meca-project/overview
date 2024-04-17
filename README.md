@@ -77,3 +77,9 @@
 ## 참고문헌
 1. [(OCP) Greg Casey, “GEN-Z:　High-performance interconnect for the data-centric future,” OCP Summit 2018](/Data/documents/OCP-GenZ-March-2018-final.pdf)
 2. [(FSD) A. Klimovic, et al., “Flash Storage Disaggregation,” EuroSys’16, April 2016](/Data/documents/A._Klimovic,_et_al.,_“Flash_Storage_Disaggregation,”_EuroSys’16,_April_2016.pdf)
+
+
+{% assign date = '2020-04-13T10:20:00Z' %}
+
+- Original date - {{ date }}
+- With timeago filter - {{ date | timeago }}
