@@ -1,7 +1,5 @@
-source 'https://rubygems.org'
+source "https://rubygems.org" # source "https://gems.ruby-china.com"
 
-gem "jekyll", "~> 4.2"
+gemspec
 
-group :jekyll_plugins do
-  gem "jekyll-timeago", "~> 0.13.1"
-end
+gem "github-pages", group: :jekyll_plugins
