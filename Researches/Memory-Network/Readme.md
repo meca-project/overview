@@ -4,7 +4,7 @@
 * 메모리 연결망 프로토콜은 Gen-Z 0.7, 1.0 스펙을 준수
 * CPU와 연동을 위한 별도의 device driver에서 바이트 단위, 블록 단위 접근 가능
 
-![w](Data/image/01/memory1.png)
+![w](/Data/image/01/memory1.png)
 
 ![w2](/Data/image/01/memory2.png)
 
