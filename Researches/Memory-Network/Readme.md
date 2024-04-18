@@ -11,7 +11,6 @@
 <메모리연결망 하드웨어 상세구조>
 
 
-
 ![w3](/Data/image/01/memory3.png)
 
 <메모리연결망 레이어별 고도화>
@@ -20,7 +19,6 @@
 ![w4](/Data/image/01/memory4.png)
 
 <메모리연결망 스위치 구조>
-
 
 
 ![w5](/Data/image/01/memory5.png)
