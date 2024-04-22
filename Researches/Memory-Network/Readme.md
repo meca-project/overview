@@ -8,22 +8,22 @@
 
 ![w2](/Data/image/01/memory2.png)
 
-<메모리연결망 하드웨어 상세구조>
+\<메모리연결망 하드웨어 상세구조\>
 
 
 ![w3](/Data/image/01/memory3.png)
 
-<메모리연결망 레이어별 고도화>
+\<메모리연결망 레이어별 고도화\>
 
 
 ![w4](/Data/image/01/memory4.png)
 
-<메모리연결망 스위치 구조>
+\<메모리연결망 스위치 구조\>
 
 
 ![w5](/Data/image/01/memory5.png)
 
-<메모리 중심 컴퓨팅 소프트웨어 개요>
+\<메모리 중심 컴퓨팅 소프트웨어 개요\>
 
 
 
@@ -36,11 +36,11 @@
 
 ![w6](/Data/image/01/memory6.png)
 
-<Gen-Z 메모리 풀 관리 SW>
+\<Gen-Z 메모리 풀 관리 SW\>
 
 ![w6](/Data/image/01/memory6.png)
 
-<확장메모리 풀>
+\<확장메모리 풀\>
 
 ## 2. 개발 환경
 ### A. 메모리 연결망 HW/SW 개발용 테스트 완료된 플랫폼
@@ -53,7 +53,7 @@
 
 ![w7](/Data/image/01/memory7.png)
 
-<Bittware 개발 보드>
+\<Bittware 개발 보드\>
 
    - Xilinx xcvu9p-flgb2014-2-e FPGA 장착
    - 4 DDR4 RDIMM 슬롯지원, PCIe Gen3 x16 지원
@@ -64,7 +64,7 @@
 
 ![w8](/Data/image/01/memory8.png)
 
-<AlphaData 개발 보드>
+\<AlphaData 개발 보드\>
 
    - Xilinx Kintex&reg; UltraScale&trade; XCKU115-2 - FLVA1517E
    - 6x PCI Express Gen3 x8 cores
@@ -72,7 +72,7 @@
      [제품정보](https://www.alpha-data.com/dcp/products.php?product=adm-pcie-8k5/)
 
 ## 3. 메모리 연결망 HW Device Driver
-<개발 SW 사양 및 툴체인 버전>
+\<개발 SW 사양 및 툴체인 버전\>
 |SW| 버전 및 사양|
 |:---------:|:-------------------------------------:|
 |부트로더<br>(UEFI BIOS)|DELL R730 & HPE DL380 Gen10 UEFI BIOS Firmware<br>- Dell UEFI BIOS<br>- HPE UEFI BIOS
