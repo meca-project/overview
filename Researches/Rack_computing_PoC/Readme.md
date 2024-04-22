@@ -2,7 +2,7 @@
 * 자체 개발 메모리 서버, NVMe 스토리지 서버를 포함한 컴퓨팅, GPU HW 자원 풀 구성
 * 자원풀은 100G 급 네트워크로 연결되며, 자원풀을 운영하기 위한 관리 SW 구성
 
-![PoC_rev](/Data/image/02/01.png)
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/02/01.png" alt="PoC rev"/>
 
 \<랙컴퓨팅PoC 구조도\>
 
@@ -20,7 +20,7 @@
 ### B. 스토리지 서버 개발 보드 종류 및 규격
 * PCIe Switch 보드
 
-![PCIe Switch](/Data/image/02/02.png)
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/02/02.png" alt="PCIe Switch"/>
 
 
 \<PCIe Switch 보드\>
@@ -36,7 +36,7 @@
 
 * NVMe Disk Backplane 보드
 
-![NVMe Disk Backplane](/Data/image/02/03.png)
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/02/03.png" alt="NVMe Disk Backplane"/>
 
 
 \<NVMe Disk Backplane 보드\>
@@ -48,7 +48,8 @@
 
 * x16 PCIe Interface 보드
 
-![x16 PCIe Interface](/Data/image/02/04.png)
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/02/04.png" alt="x16 PCIe Interface"/>
+
 
 \<x16 PCIe Interface 보드\>
 
@@ -57,7 +58,7 @@
 
 * x8 PCIe Interface 보드
 
-![x8 PCIe Interface](/Data/image/02/05.png)
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/02/05.png" alt="x8 PCIe Interface"/>
 
 
 \<x8 PCIe Interface 보드\>
@@ -68,7 +69,8 @@
 
 ### C. 스토리지 서버 시스템 구조 및 규격
 
-![NVMe SSD](/Data/image/02/06.png)
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/02/06.png" alt="NVMe SSD"/>
+
 
 \<스토리지 서버 시스템 구조\>
 
@@ -116,7 +118,7 @@
 ### B. SW 개발 환경과 버전
 • SW 아키텍처 구성도
 
-![arch](/Data/image/02/07.png)
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/02/07.png" alt="arch"/>
 
 \<아키텍처 구성도\>
 
@@ -125,7 +127,7 @@
       * Message Queue(RabbitMQ)를 통한 제어 모듈들에 Event 방식으로 상호 연결되어서 처리되어 있음.
       * 각 제어 모듈은 Micro Service 형태로 구현되어 기능적인 확장이 용이함.
 
-![cm](/Data/image/02/08.png)
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/02/08.png" alt="cm"/>
 
 \<Cluster Manager 구성도\> 
 
@@ -133,7 +135,7 @@
       * 사용 가능한 리소스를 요청한 구성에 따라 PODM은 PSME에게 필요한 작업 (스위치 매개 변수 설정, IP 주소 매핑, 네임 스페이스 및 스토리지 볼륨 생성 등)을 수행하도록 요청하고 오케스트레이션 계층에 정보를 반환함
       * 작성된 시스템에 프로비저닝 및 워크로드 분배를 수행 함
 
-![PDOM struct ARCH](/Data/image/02/09.png)
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/02/09.png" alt="PDOM struct ARCH"/>
 
 \<PODM(v2.5) 내부 구성도\> 
 
@@ -141,7 +143,7 @@
       * 각 블레이드, 각 섀시, 각 드로어 또는 전체 랙에 대한 하나의 구성 요소로 실행될 수 있도록 구현
       * 스토리지 볼륨 생성 등과 같은 구성을 지원하는 데 필요한 기능을 제공하는 PSME 소프트웨어 구성 요소가 포함 되어 있음
 
-![PSME module ARCH](/Data/image/02/10.png)
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/02/10.png" alt="PSME module ARCH"/>
 
  \<PSME Module 구성도\>
 
