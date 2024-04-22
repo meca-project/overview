@@ -1,13 +1,12 @@
 # 2차년도 결과물 (Video)
 ## 1. [MOCA_Hardware 2019_Demo]
-<div width="100%">
-<video controls>
+<video width="640" height="480" controls>
   <source src="https://meca-project.github.io/mecaproject.github.io/Data/video/MOCA_Hardware_2019_Demo.webm" type="video/webm"></source>
 </video>
-<div/>
+
 
 ## 2. [메모리공유(FAME)]
-<video width="320" height="240" controls>
+<video controls sytle="object-fit:cover">
   <source src="https://meca-project.github.io/mecaproject.github.io/Data/video/메모리공유(FAME).webm" type="video/webm"></source>
 </video>
 
