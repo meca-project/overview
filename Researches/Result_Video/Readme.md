@@ -4,7 +4,6 @@
   <source src="https://meca-project.github.io/mecaproject.github.io/Data/video/MOCA_Hardware_2019_Demo.webm" type="video/webm"></source>
 </video>
 
-
 ## 2. [메모리공유(FAME)]
 <video width="640" height="480" controls>
   <source src="https://meca-project.github.io/mecaproject.github.io/Data/video/메모리공유(FAME).webm" type="video/webm"></source>
