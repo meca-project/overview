@@ -5,6 +5,9 @@
 
 {%- capture items -%}
     {%- for item in site_dirs -%}
+    {%- unless item contains "/Data/" -%}
+        {{ item }}
+    {%- endunless -%}
         {%- assign current_m1 = item.dir | append: "temp" | replace_first: "/", "" | split: "/" | size | minus: 1 -%}
         {%- if workdir_level == current_m1 -%}
             {%- assign temp = workdir | append: "@@" -%}
