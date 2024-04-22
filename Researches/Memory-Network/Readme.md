@@ -6,6 +6,7 @@
 
 ![w](/Data/image/01/memory1.png)
 <img src="/Data/image/01/memory1.png" alt="w1">
+<img src="{{ "/Data/image/01/memory1.png.png" | prepend: site.baseurl | prepend: site.url}}" alt="fixed???" />
 
 ![w2](/Data/image/01/memory2.png)
 
