@@ -8,6 +8,22 @@ theme: null
 #   dist: false
 #   shortcodes: true
 
+defaults:
+  - scope:
+      path: "Data/image/00"
+    values:
+      image: true
+      
+  - scope:
+      path: "Data/image/01"
+    values:
+      image: true
+  
+  - scope:
+      path: "Data/image/02"
+    values:
+      image: true
+
 readme_index:
   with_frontmatter: true
 
