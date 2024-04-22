@@ -9,6 +9,7 @@
 <img src="{{"Data/image/01/memory1.png"| prepend: site.baseurl | prepend: site.url}}" alt="fixed???" />
 <img src="https://mecaproject.github.io/meca-project/Data/image/01/memory1.png" alt="Untitled" />
 <img src="{{site.baseurl | prepend: site.url}}Data/iamge/01/memory1.png" alt="zigzag" />
+<img src="https://meca-project.github.io/mecaproject.github.io/Data/image/01/memory1.png" alt="final??"/>
 
 ![w2](/Data/image/01/memory2.png)
 
