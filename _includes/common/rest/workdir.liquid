@@ -5,7 +5,7 @@
 
 {%- capture items -%}
     {%- for item in site_dirs -%}
-    {%- unless item contains "Data" -%}
+    {%- unless item.dir contains "Data" -%}
 
         {%- assign current_m1 = item.dir | append: "temp" | replace_first: "/", "" | split: "/" | size | minus: 1 -%}
         {%- if workdir_level == current_m1 -%}
