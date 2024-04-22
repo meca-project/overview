@@ -10,7 +10,7 @@
             {%- assign temp = workdir | append: "@@" -%}
             {%- assign dir = item.dir | replace: workdir, temp | split: "@@" | first -%}
             {% comment %} In the current subdirectory {% endcomment %}
-            {%- unless dir contains "/Data/" -%}
+            {%- unless dir contains "Data" -%}
                 {{ item.dir }}|
             {%- endunless -%}
             {% comment %} 
