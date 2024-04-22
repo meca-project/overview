@@ -11,7 +11,7 @@
             {%- assign dir = item.dir | replace: workdir, temp | split: "@@" | first -%}
             {% comment %} In the current subdirectory {% endcomment %}
             {%- unless dir contains "/Data/" -%}
-                {{ dir }}|
+                {{ item.dir }}|
             {%- endunless -%}
             {% comment %} 
             {%- if workdir == dir -%}
