@@ -5,7 +5,7 @@
 * CPU와 연동을 위한 별도의 device driver에서 바이트 단위, 블록 단위 접근 가능
 
 ![w](/Data/image/01/memory1.png)
-<img src="Data/image/01/memory1.png" alt="w1">
+<img src="/Data/image/01/memory1.png" alt="w1">
 
 ![w2](/Data/image/01/memory2.png)
 
