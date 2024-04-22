@@ -4,7 +4,7 @@
 
 ![PoC_rev](/Data/image/02/01.png)
 
-<랙컴퓨팅PoC 구조도>
+\<랙컴퓨팅PoC 구조도\>
 
 
 ## 2. 랙 컴퓨팅 HW 개발
@@ -23,7 +23,7 @@
 ![PCIe Switch](/Data/image/02/02.png)
 
 
-<PCIe Switch 보드>
+\<PCIe Switch 보드\>
 
    - Microsemi Switchtec PM8546B-FEI 
    - PCIe Gen3 x24 Uplink, x72 Downlink 지원
@@ -39,7 +39,7 @@
 ![NVMe Disk Backplane](/Data/image/02/03.png)
 
 
-<NVMe Disk Backplane 보드>
+\<NVMe Disk Backplane 보드\>
 
    - SFF-8639 Connector x24 개 장착
    - NVMe SSD 24Bay 지원
@@ -50,7 +50,7 @@
 
 ![x16 PCIe Interface](/Data/image/02/04.png)
 
-<x16 PCIe Interface 보드>
+\<x16 PCIe Interface 보드\>
 
    - MiniSAS HD 1x1 Connector 4개 장착
    - PCIe Gen3 x16 Uplink 지원
@@ -60,7 +60,7 @@
 ![x8 PCIe Interface](/Data/image/02/05.png)
 
 
-<x8 PCIe Interface 보드>
+\<x8 PCIe Interface 보드\>
 
    - MiniSAS HD 1x1 Connector 2개 장착
    - PCIe Gen3 x8 Uplink 지원
@@ -70,12 +70,12 @@
 
 ![NVMe SSD](/Data/image/02/06.png)
 
-<스토리지 서버 시스템 구조>
+\<스토리지 서버 시스템 구조\>
 
    - NVMe 스토리지 서버는 랙 컴퓨팅 시스템에서 Storage Resource 풀을 구성하는 시스템으로 외부와는 패브릭 네트워크 및 관리 네트워크로 연결되어 있으며 내부 NVMe 스토리지는 PCIe 스위치로 확장되어 Storage 자원을 제공한다.  
 
 
-<스토리지 서버 시스템 규격>
+\<스토리지 서버 시스템 규격\>
 
 |항목|규격|
 |:----------:|:---------------------------------:|
@@ -118,7 +118,7 @@
 
 ![arch](/Data/image/02/07.png)
 
-<아키텍처 구성도>
+\<아키텍처 구성도\>
 
 • 기능설명
   * Cluster Manager : 클러스터 자원들의 통합 관리용 오케스트레이션 API를 제공
@@ -127,7 +127,7 @@
 
 ![cm](/Data/image/02/08.png)
 
-<Cluster Manager 구성도> 
+\<Cluster Manager 구성도\> 
 
   * PODM : 포드 관리자는 포드의 각 랙 내 모든 리소스를 검색하고 기록하며 상위 오케스트레이션 계층의 요청에 따라 시스템을 구성함
       * 사용 가능한 리소스를 요청한 구성에 따라 PODM은 PSME에게 필요한 작업 (스위치 매개 변수 설정, IP 주소 매핑, 네임 스페이스 및 스토리지 볼륨 생성 등)을 수행하도록 요청하고 오케스트레이션 계층에 정보를 반환함
@@ -135,7 +135,7 @@
 
 ![PDOM struct ARCH](/Data/image/02/09.png)
 
-<PODM(v2.5) 내부 구성도> 
+\<PODM(v2.5) 내부 구성도\> 
 
   * PSME : 시스템 관리 엔진으로 각 리소스 모듈 제어 기능과 각 리소스 모듈의 상호 연결
       * 각 블레이드, 각 섀시, 각 드로어 또는 전체 랙에 대한 하나의 구성 요소로 실행될 수 있도록 구현
@@ -143,7 +143,7 @@
 
 ![PSME module ARCH](/Data/image/02/10.png)
 
- <PSME Module 구성도>
+ \<PSME Module 구성도\>
 
   * RMM : 각 랙에는 RMM이 있으며 이는 PSME 및 PODM와 통신하고 다양한 랙 기능을 수행
     * 랙 전원 및 냉각 관리, 환경 및 건강 상태보고, 랙 내 각 자산의 물리적 위치 지정 및 보고가 포함되어 있음
