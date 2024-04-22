@@ -6,29 +6,29 @@
 
 
 ## 2. [메모리공유(FAME)]
-<video controls sytle="object-fit:cover">
+<video width="640" height="480" controls>
   <source src="https://meca-project.github.io/mecaproject.github.io/Data/video/메모리공유(FAME).webm" type="video/webm"></source>
 </video>
 
 ## 3. [RackComputing Hardware]
-<video width="320" height="240" controls>
+<video width="640" height="480" controls>
   <source src="https://meca-project.github.io/mecaproject.github.io/Data/video/RackComputing_Hardware_Dev.webm" type="video/webm"></source>
 </video>
 
 ## 4. [RSD Software]
-<video width="320" height="240" controls>
+<video width="640" height="480" controls>
   <source src="https://meca-project.github.io/mecaproject.github.io/Data/video/RSD_Software_Dev.webm" type="video/webm"></source>
 </video>
 
 # 3차년도 결과물 (Video)
 
 ## 1. [MOCA 2020 Demo]
-<video width="320" height="240" controls>
+<video width="640" height="480" controls>
   <source src="https://meca-project.github.io/mecaproject.github.io/Data/video/ETRI_Gen-Z.mp4" type="video/mp4"></source>
 </video>
 
 ## 2. [RackComputing Hardware]
-<video width="320" height="240" controls>
+<video width="640" height="480" controls>
   <source src="https://meca-project.github.io/mecaproject.github.io/Data/video/KTNF_동영상.mp4" type="video/mp4"></source>
 </video>
 
