@@ -34,4 +34,3 @@ exclude:
   - jekyll-rtd-theme.gemspec
 
 
-permalink: /:categories/:year/:month/:day/:title:output_ext
