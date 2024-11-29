@@ -8,8 +8,8 @@ theme: null
 #   dist: false
 #   shortcodes: true
 
-url: 'https://mecaproject.github.io/' # your main domain
-baseurl: '' # if you're using custom domain keep this blank example: baseurl: ''
+url: 'https://meca-project.github.io/' # your main domain
+baseurl: '/overview' # if you're using custom domain keep this blank example: baseurl: ''
 
 readme_index:
   with_frontmatter: true
