@@ -9,7 +9,7 @@ theme: null
 #   shortcodes: true
 
 url: 'https://meca-project.github.io/' # your main domain
-baseurl: '/overview' # if you're using custom domain keep this blank example: baseurl: ''
+baseurl: '' # if you're using custom domain keep this blank example: baseurl: ''
 
 readme_index:
   with_frontmatter: true
@@ -32,3 +32,6 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
+
+
+permalink: /:categories/:year/:month/:day/:title:output_ext
