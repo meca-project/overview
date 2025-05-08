@@ -4,21 +4,21 @@
 * 메모리 연결망 프로토콜은 Gen-Z 0.7, 1.0 스펙을 준수
 * CPU와 연동을 위한 별도의 device driver에서 바이트 단위, 블록 단위 접근 가능
 
-<img src="https://meca-project.github.io/Data/image/01/memory1.png" alt="w1"/>
+<img src="https://moca-platform.github.io/overview/Data/image/01/memory1.png" alt="w1"/>
 
-<img src="https://meca-project.github.io/Data/image/01/memory2.png" alt="w2"/>
+<img src="https://moca-platform.github.io/Data/image/01/memory2.png" alt="w2"/>
 
 \<메모리연결망 하드웨어 상세구조\>
 
-<img src="https://meca-project.github.io/Data/image/01/memory3.png" alt="w3"/>
+<img src="https://moca-platform.github.io/Data/image/01/memory3.png" alt="w3"/>
 
 \<메모리연결망 레이어별 고도화\>
 
-<img src="https://meca-project.github.io/Data/image/01/memory4.png" alt="w4"/>
+<img src="https://moca-platform.github.io/Data/image/01/memory4.png" alt="w4"/>
 
 \<메모리연결망 스위치 구조\>
 
-<img src="https://meca-project.github.io/Data/image/01/memory5.png" alt="w5"/>
+<img src="https://moca-platform.github.io/Data/image/01/memory5.png" alt="w5"/>
 
 \<메모리 중심 컴퓨팅 소프트웨어 개요\>
 
@@ -31,11 +31,11 @@
 * 컨테이너 브로커를 사용한 Gen-Z 메모리 Pool Manager구현으로 인한 컨테이너 수준 안정성 확보
 * 다중 APP의 접근 제한 모델
 
-<img src="https://meca-project.github.io/Data/image/01/memory6.png" alt="w6"/>
+<img src="https://moca-platform.github.io/Data/image/01/memory6.png" alt="w6"/>
 
 \<Gen-Z 메모리 풀 관리 SW\>
 
-<img src="https://meca-project.github.io/Data/image/01/memory7.png" alt="w7"/>
+<img src="https://moca-platform.github.io/Data/image/01/memory7.png" alt="w7"/>
 
 \<확장메모리 풀\>
 
@@ -48,7 +48,7 @@
 ### B. 메모리 연결망 HW/SW 개발보드 종류 및 규격
 * Bittware XUPP3R 개발 보드
 
-<img src="https://meca-project.github.io/Data/image/01/memory8.png" alt="w8"/>
+<img src="https://moca-platform.github.io/Data/image/01/memory8.png" alt="w8"/>
 
 \<Bittware 개발 보드\>
 
@@ -59,7 +59,7 @@
 
 * AlphaData 개발 보드
 
-<img src="https://meca-project.github.io/Data/image/01/memory9.png" alt="w9"/>
+<img src="https://moca-platform.github.io/Data/image/01/memory9.png" alt="w9"/>
 
 \<AlphaData 개발 보드\>
 
